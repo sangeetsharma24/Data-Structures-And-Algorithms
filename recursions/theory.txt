@@ -1,0 +1,28 @@
+int fun(int n)
+{
+    .
+    .
+    .
+}
+void main()
+{
+    .
+    .
+    .
+    fun(6)*2;
+    .
+    .
+}
+program starts with 9th line comes to  12 function fun is called and the program returns back to the 12th line.
+
+a recursion function calls itself. it must have a terminating condition.
+
+eg- 
+void fun(int n)
+{
+    if(n>0)
+    {
+        printf("%d", n);
+        fun(n-1);
+    }
+}
